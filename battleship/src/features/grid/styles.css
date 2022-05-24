@@ -1,0 +1,38 @@
+.tile {
+  display: inline-flex;
+  outline: none;
+  border: 2px solid black;
+}
+.nongame {
+  background-color: #00ffff;
+}
+.water {
+  background-color: #00ffff;
+}
+.ship {
+  background-color: #696969;
+}
+.shipHover {
+  background-color: #696969;
+}
+.shipAdjacent {
+  background-color: #00ffff;
+}
+.shipPlaceError {
+  background-color: red;
+}
+.bombHover {
+  background-color: red;
+}
+.bombHitWater {
+  background-image: url("http://localhost:3000/tiles/Bomb.png");
+  background-color: #00ffff;
+  height: 60px;
+  width: 60px;
+}
+.bombHitShip {
+  background-image: url("http://localhost:3000/tiles/Bomb.png");
+  background-color: red;
+  height: 60px;
+  width: 60px;
+}

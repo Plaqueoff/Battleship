@@ -1,0 +1,27 @@
+.tile {
+  display: inline-flex;
+  outline: none;
+  border: 2px solid black;
+}
+.nongame {
+  background-color: #00ffff;
+}
+.oppwater {
+  background-color: #00ffff;
+}
+.oppwater:hover {
+  background-color: #696969;
+}
+
+.bombHitWater {
+  background-image: url("http://localhost:3000/tiles/Bomb.png");
+  background-color: #00ffff;
+  height: 60px;
+  width: 60px;
+}
+.bombHitShip {
+  background-image: url("http://localhost:3000/tiles/Bomb.png");
+  background-color: red;
+  height: 60px;
+  width: 60px;
+}
